@@ -97,28 +97,28 @@ const Dashboard = () => {
        </div>
        <div className='second-das'>
         <div className='box-1'>
-        <CalendarFill style={{color:"lightgray",marginLeft :"12rem",marginTop:"1rem",fontSize:"2rem",fontWeight:"700"}}/>
+        <CalendarFill style={{color:"lightgray",marginLeft :"14rem",marginTop:"1rem",fontSize:"2rem",fontWeight:"700"}}/>
         <span className='box-1-info'>
         EARNINGS (MONTHLY) <br/>
         <span style={{color:"rgb(181, 181, 181)",fontSize :"1.4rem"}}>$40,000</span>
         </span>
         </div>
           <div className='box-2'>
-          <CurrencyDollar style={{color:"lightgray",marginLeft :"11.6rem",marginTop:"0.5rem",fontSize:"3rem"}}/>
+          <CurrencyDollar style={{color:"lightgray",marginLeft :"14rem",marginTop:"0.5rem",fontSize:"3rem"}}/>
           <span className='box-2-info'>
           EARNINGS (ANNUAL) <br/>
           <span style={{color:"rgb(181, 181, 181)",fontSize :"1.4rem"}}>$215,000</span>
           </span>
            </div>
             <div className='box-3'>
-            <Clipboard2DataFill style={{color:"lightgray",marginLeft :"12rem",marginTop:"0.5rem",fontSize:"2rem"}}/>
+            <Clipboard2DataFill style={{color:"lightgray",marginLeft :"14rem",marginTop:"0.5rem",fontSize:"2rem"}}/>
               <span className='box-3-info'>
                 TASKS <br/>
                  50% <input type="range" disabled className='range-input' value={50}/>
                </span>
             </div>
              <div className='box-4'>
-             <ChatDotsFill style={{color:"lightgray",marginLeft :"12rem",marginTop:"0.5rem",fontSize:"2rem"}}/>
+             <ChatDotsFill style={{color:"lightgray",marginLeft :"14rem",marginTop:"0.5rem",fontSize:"2rem"}}/>
                <span className='box-4-info'>
                 PENDING REQUESTS <br/>
                 18
