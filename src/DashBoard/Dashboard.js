@@ -92,8 +92,8 @@ const Dashboard = () => {
       
             {/* Dashboard Link */}
             <Link to="/" className="sidebar-link">
-              <Speedometer2 className="sidebar-icon" />
-              <span>Dashboard</span>
+              <Speedometer2 className="sidebar-icons" />
+              <span className='dash'>Dashboard</span>
             </Link>
             <hr className="sidebar-divider" />
       
