@@ -10,8 +10,9 @@ const Createacc = () => {
       <img src={createimg}/>
       </div>
       <div className='thir_create_container'> 
+      <br/> <br/>
           <h1>Create Account</h1>
-          <br/>
+  
           <div className='create_acc'>
           <input type = "text"  placeholder='First Name'/>
           <input type = "text" placeholder='Last Name'/>

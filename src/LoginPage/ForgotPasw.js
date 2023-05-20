@@ -20,7 +20,7 @@ const ForgotPasw = () => {
          <br/>
          <input type='text' className='forgot-input' placeholder='Enter Email Address...' /> <br/>
          <br/>
-         <button className='reset-btn' ><Link to='/login' style={{textDecoration:"none",fontSize:"0.8rem",color:"white"}}>Reset Password</Link></button> <br/>
+         <button className='reset-btn' ><Link to='/login' onClick={()=>alert('Password changed Login!!')} style={{textDecoration:"none",fontSize:"0.8rem",color:"white"}}>Reset Password</Link></button> <br/>
         <br/> <hr/> <br/>
          <Link to='/create'  className='acc_link_2'><span>Create an Account!</span></Link> <br/>
          <Link to='/login'  className='acc_link_2'><span>Already have an account? Login!</span></Link>

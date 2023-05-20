@@ -17,7 +17,7 @@ const Login = () => {
             <input type='text' className='input-1' placeholder='Enter Email Address...'/> <br/> <br/>
             <input type='password' className='input-2'  placeholder='Password'/> <br/><br/>
             <input type='checkbox' className='input-3'/><span>Remember Me</span> <br/><br/>
-            <button className='btns'>Login</button> <br/> 
+            <Link to='/login'><button onClick={() => alert('your already in Login page!!')} className='btns'>Login</button></Link> <br/> 
             <hr className='hrs'/><br/>
             </form>
             <button className='btn-1'>
