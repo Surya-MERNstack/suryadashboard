@@ -116,7 +116,7 @@ const Dashboard = () => {
                   <span className="dropdown-title">CUSTOM COMPONENTS</span>
                   <Link to="/login" className="btn-link">
                     <button className="btn">Buttons</button>
-                  </Link>
+                  </Link> <br/>
                   <Link to="/login" className="btn-link">
                     <button className="btn">Cards</button>
                   </Link>

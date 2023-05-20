@@ -24,7 +24,7 @@
 
 .thir_create_container {
     position: absolute;
-    top: 0;
+    top: -3rem;
     right: 0%;
     width: 506px;
     text-align: center;
@@ -118,4 +118,12 @@
 .ss{
     width: 26rem;
     margin-left: 2rem;
+}
+.acc_link{
+    text-decoration: none;
+}
+
+.acc_link:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }

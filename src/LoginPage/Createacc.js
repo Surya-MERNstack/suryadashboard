@@ -10,7 +10,6 @@ const Createacc = () => {
       <img src={createimg}/>
       </div>
       <div className='thir_create_container'> 
-          <br/>
           <h1>Create Account</h1>
           <br/>
           <div className='create_acc'>
@@ -30,10 +29,10 @@ const Createacc = () => {
           <hr className='ss'/> <br/>
          <Link to='/'> <button className='reg_btn_2 '> <Google /> Register with Goggle</button></Link> <br/> <br/>
          <Link to='/'>  <button className='reg_btn_3 '><Facebook/> Register with Facebook</button></Link>
-          <br/> <br/>
+          <br/>
           <hr className='ss'/> 
-          <Link to='/forgot'><span className='acc_link'>Forgot Password?</span> </Link><br/>
-          <Link to='/login'><span className='acc_link'>Already have an account? Login!</span> </Link><br/>
+          <Link to='/forgot'  className='acc_link'><span>Forgot Password?</span> </Link><br/>
+          <Link to='/login'  className='acc_link'><span>Already have an account? Login!</span> </Link><br/>
       </div>
     </div>
   )

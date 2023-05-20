@@ -24,8 +24,8 @@
 
 .thir_container{
     position:absolute;
-    top: 0;
-    right: 5%;
+    top: -6rem;
+    right: 3%;
     margin-top: 3px;
 }
 
@@ -60,6 +60,7 @@
    background: rgb(30, 123, 217);
   font-weight: 500;
   transition: 0.4s;
+  margin-left: 1.2rem;
 }
 
 .reset-btn:hover {
@@ -76,4 +77,8 @@
 .acc_link_2:hover{
     color: rgb(89, 136, 228);
     text-decoration: underline;
+}
+
+.acc_link_2  {
+    text-decoration: none;
 }
